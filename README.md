@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Tic Tac Toe Game
 
-## Getting Started
+A modern Tic Tac Toe game built using Next.js, TypeScript, and Tailwind CSS with smooth animations and clean UI design.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+##  Live Demo
+
+
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- React Hooks
+
+---
+
+##  Features
+
+- 3x3 Interactive Game Board
+- Turn-based logic (X / O)
+- Winner detection algorithm
+- Draw detection
+- Game reset functionality
+- Smooth hover & click animations
+- Clean black & white UI design
+
+---
+
+##  Game Logic
+
+- Board state managed using React `useState`
+- Winning combinations checked using pattern matching
+- Draw condition detected using `Array.every()`
+- Immutable state updates
+
+---
+
+##  Project Structure
+
+```
+app/
+ ├── components/
+ │    └── TicTacToe.tsx
+ └── page.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##  Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/Khan-Shuvo/TicTacToe.git
+cd TicTacToe
+npm install
+npm run dev
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+##  Learning Purpose
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project was built to practice:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- State management in React
+- TypeScript typing
+- Clean component architecture
+- Algorithmic thinking
+- UI animation using Tailwind CSS
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##  Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Shuvo Khan  
+Frontend Developer  
