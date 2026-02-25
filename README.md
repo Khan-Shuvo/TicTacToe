@@ -6,7 +6,7 @@ A modern Tic Tac Toe game built using Next.js, TypeScript, and Tailwind CSS with
 
 ##  Live Demo
 
-
+https://tic-tac-toe-eta-fawn.vercel.app/
 
 ---
 
